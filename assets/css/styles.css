@@ -30,7 +30,7 @@ main {
   height: 60vh;
   margin: 20px auto 20px auto;
   position: relative;
-  border-bottom: 2px #666666 solid;
+  border-bottom: 5px #666666 solid;
 }
 
 /* Left Section */
@@ -73,16 +73,25 @@ main {
 }
 
 .row {
-  width: 25%;
-  margin-right: 20px;
+  width: 30%;
+  margin-right: 15px;
+}
+
+.row:last-of-type {
+  margin-right: 0;
 }
 
 .row-i-relative {
   position: relative;
-  top: 20px;
+  top: 25px;
 }
 
 .row-ii-relative {
   position: relative;
-  bottom: 20px;
+  bottom: 25px;
+}
+
+/* Image */
+img {
+  border: 2px antiquewhite solid;
 }
