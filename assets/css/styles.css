@@ -4,3 +4,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Page Settings  */
+body {
+  background-color: #fff;
+}
+
+/* Settings for the Header */
+header {
+  width: 95%;
+  margin: 20px auto 20px auto;
+  padding: 20px;
+  background-color: #666666;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #fff;
+}
