@@ -42,7 +42,8 @@ main {
 
 .absolute h2, .relative h2 {
   font-family: sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-left: 10px;
 }
 
 .abs-images {
