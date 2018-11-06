@@ -8,6 +8,7 @@
 /* Page Settings  */
 body {
   background-color: #fff;
+  position: relative;
 }
 
 /* Settings for the Header */
@@ -26,28 +27,62 @@ h1 {
 /* Main Content */
 main {
   width: 95%;
+  height: 60vh;
   margin: 20px auto 20px auto;
   position: relative;
+  border-bottom: 2px #666666 solid;
 }
 
 /* Left Section */
 .absolute {
-  width: 45%;
+  width: 48%;
   position: absolute;
   left: 0;
 }
 
-.absolute h2 {
+.absolute h2, .relative h2 {
   font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+.abs-images {
+  position: relative;
 }
 
 #abs-sunset {
-  width: 95%;
+  width: 100%;
 }
 
 #abs-stairs {
   width: 30%;
   position: absolute;
-  left: 60%;
-  top: 10%;
+  right: 10px;
+  top: 10px;
+}
+
+/* Right Section */
+.relative {
+  width: 48%;
+  position: absolute;
+  right: 0;
+}
+
+.rel-row {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.row {
+  width: 25%;
+  margin-right: 20px;
+}
+
+.row-i-relative {
+  position: relative;
+  top: 20px;
+}
+
+.row-ii-relative {
+  position: relative;
+  bottom: 20px;
 }
