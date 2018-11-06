@@ -22,3 +22,32 @@ h1 {
   font-family: sans-serif;
   color: #fff;
 }
+
+/* Main Content */
+main {
+  width: 95%;
+  margin: 20px auto 20px auto;
+  position: relative;
+}
+
+/* Left Section */
+.absolute {
+  width: 45%;
+  position: absolute;
+  left: 0;
+}
+
+.absolute h2 {
+  font-family: sans-serif;
+}
+
+#abs-sunset {
+  width: 95%;
+}
+
+#abs-stairs {
+  width: 30%;
+  position: absolute;
+  left: 60%;
+  top: 10%;
+}
